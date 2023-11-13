@@ -1,8 +1,10 @@
 package com.sh.app;
 
+
 import com.sh.app.animal.Bear;
 import com.sh.app.animal.Bird;
-import com.sh.app.animal.Cat;
+
+
 import com.sh.app.animal.Dog;
 
 public class Main {
@@ -16,7 +18,7 @@ public class Main {
 		System.out.println("Animal Go~");
 		
 		new Dog().bark();
-		new Cat().jump();
+
 		new Bird().fly();
 		new Bear().shout();
 	}
@@ -24,5 +26,4 @@ public class Main {
 	public void test() {
 		System.out.println("Main#test");
 	}
-
 }
